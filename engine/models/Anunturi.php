@@ -102,9 +102,9 @@ class Anunturi {
 
     /**
      * Adaugarea anuntului
-     * @param type $post <p>Masicul cu datele fin forma</p>
-     * @param type $phArray <p>Masicul cu id fotografiilor</p>
-     * @return integer <p>Id anuntului andaugat</p>
+     * @param type $post <p>Masivul cu datele din forma</p>
+     * @param type $phArray <p>Masivul cu id fotografiilor</p>
+     * @return integer <p>Id anuntului adaugat</p>
      */
     public static function addAnunt($post, $phArray) {
 

@@ -23,7 +23,7 @@ define ( 'TPLADM', 'templates/Admin/' );
 define ( 'TPLERROR', 'templates/Error/' );
 define( 'TITL', ' - Anunturi.Md');
 
-// Includerea clasei de autoinpementarea altor clase
+// Includerea clasei de auto inplementarea altor clase
 require_once(ENGINE_DIR.'/components/AutoLoad.php');
 
 // Accesarea Routerului

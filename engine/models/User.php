@@ -4,9 +4,9 @@ class User {
 
     /**
      * Logarea utilizatorului
-     * @param type $login <p>Loginul utlizatorului</p>
-     * @param type $password <p>Parola utlizatorului</p>
-     * @return array <p>Masisul ca datele utilizatorului</p>
+     * @param type $login <p>Loginul utilizatorului</p>
+     * @param type $password <p>Parola utilizatorului</p>
+     * @return array <p>Masivul ca datele utilizatorului</p>
      */
     public static function checkAndGetUserData($login, $password) {
 
@@ -52,8 +52,8 @@ class User {
     }
 
     /**
-     * Verificarea daca logicu este liber
-     * @param type $login <p>Loginul spre verificate</p>
+     * Verificarea daca loginu este liber
+     * @param type $login <p>Loginul spre verificare</p>
      * @return boolean <p>Efectuarea functiei</p>
      */
     public static function checkFreeLogin($login) {
@@ -74,7 +74,7 @@ class User {
 
     /**
      * Verificarea daca email-u este liber
-     * @param type $email <p>Email-u spre verificate</p>
+     * @param type $email <p>Email-u spre verificare</p>
      * @return boolean <p>Efectuarea functiei</p>
      */
     public static function checkFreeEmail($email) {
@@ -94,8 +94,8 @@ class User {
     }
 
     /**
-     * Registra noului utilizator
-     * @param type $post <p>Masicul cu datele fin forma</p>
+     * Registrarea noului utilizator
+     * @param type $post <p>Masivul cu datele din forma</p>
      * @return boolean <p>Efectuarea functiei</p>
      */
     public static function Registrare($post) {
@@ -197,7 +197,7 @@ class User {
 
     /**
      * Redactarea datelor unui utilizator
-     * @param type $post <p>Masicul cu datele fin forma</p>
+     * @param type $post <p>Masivul cu datele din forma</p>
      * @param type $login <p>Loginul utilizatorului</p>
      * @param type $newPass [optional] <p>Parola noua</p>
      * @return boolean <p>Efectuarea functiei</p>
@@ -231,7 +231,7 @@ class User {
     }
 
     /**
-     * Selectarea numarului total de utilizati
+     * Selectarea numarului total de utilizatori
      * @return integer <p>Numarul lor</p>
      */
     public static function getCountUsers() {
